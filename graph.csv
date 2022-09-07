@@ -1,0 +1,30 @@
+V,Paris:A,57::V,Melun;A,126::V,Montargis;D,10::R,Ambroisie;A,157::R,Assiette Champenoise;;
+V,Melun:A,57::V,Paris;D,78::V,Montargis;A,75::V,Sens;;;
+V,Montargis:A,126::V,Paris;D,78::V,Melun;A,126::V,Bourges;;;
+V,Sens:A,75::V,Melun;N,56::V,Montargis;N,80::V,Auxerre;D,71::V,Troyes;;
+V,Bourges:A,126::V,Montargis;D,144::V,Auxerre;D,70::L,La Recre Des Pirates;;;
+V,Auxerre:D,144::V,Bourges;N,80::V,Sens;A,150::V,Dijon;;
+V,Troyes:D,71::V,Sens;N,189::V,Dijon;A,127::R,Assiette Champenoise;A,48::L,Nigloland;;
+V,Dijon:N,189::V,Troyes;A,150::V,Auxerre;A,127::V,Macon;D,108::L,Safariland;N,150::L,Nigloland;D,1::R,Chapeau Rouge
+V,Macon:A,127::V,Dijon;D,147::V,Vichy;A,73::V,Lyon;A,88::L,Safariland;D,20::R,Michel Blanc;
+V,Vichy:D,147::V,Macon;N,166::V,Lyon;D,127::L,Safariland;;;
+V,Lyon:A,73::V,Macon;N,166::V,Vichy;A,112::V,Grenoble;N,103::V,Valence;N,61::R,Michel Blanc;N,46::L,Cimes Aventures
+V,Marseille:A,306::V,Grenoble;D,65::V,Toulon;A,199::V,Nice;D,32::R,Restaurant Athelia;A,110::L,PiratLand;
+V,Toulon:D,65::V,Nice;A,199::V,Marseille;D,36::R,Restaurant Athelia;;;
+V,Nice:N,149::V,Toulon;A,199::V,Marseille;D,30::L,Koaland;;;
+V,Grenoble:A,112::V,Lyon;A,306::V,Marseille;;;;
+V,Valence:N,103::V,Lyon;D,92::V,Grenoble;D,152::V,Nimes;D,87::L,Cimes Aventures;A,123::L,PiratLand;
+V,Nimes:D,152::V,Valence;A,57::V,Montpellier;;;;
+V,Montpellier:A,57::V,Nimes;A,7::R,Nova Grill;;;;
+R,Restaurant Athelia:D,32::V,Marseille;D,36::V,Toulon;;;;
+R,Nova Grill:A,7::V,Montpellier;;;;;
+R,Michel Blanc:N,61::V,Lyon;D,20::V,Macon;;;;
+R,Chapeau Rouge:D,1::V,Dijon;;;;;
+R,Assiette Champenoise:A,127::V,Troyes;A,157::V,Paris;;;;
+R,Ambroisie:D,10::V,Paris;;;;;
+L,Nigloland:A,48::V,Troyes;N,150::V,Dijon;D,119::V,Auxerre;;;
+L,Safariland:D,108::V,Dijon;A,88::V,Macon;D,127::V,Vichy;;;
+L,Cimes Aventures:N,46::V,Lyon;D,87::V,Valence;;;;
+L,Koaland:D,30::V,Nice;;;;;
+L,PiratLand:A,110::V,Marseille;N,37::V,Nimes;A,123::V,Valence;;;
+L,La Recre Des Pirates:D,70::V,Bourges;;;;;
