@@ -2,7 +2,7 @@
 
 ## About
 
-Graph Map Analysis or in short GRAMA is a tool fully-developed in Java that supports graph analysis and visualisation. This is an ongoing project that will be worked on to provide a
+Graph Map Analysis or GRAMA in short is a tool fully-developed in Java that supports graph analysis and visualisation. This is an ongoing project that will be worked on to provide a
 free and open-source solution for graph analysts. 
 
 ## Preview 
