@@ -9,7 +9,7 @@ free and open-source solution for graph analysts.
 
 GRAMA is equipped with an interface developped using SWING integrating a display for graph visualisation purpose. This is GRAMA on work!
 
-![alt text](https://github.com/wockehs001/Graph-Map-Analysis/blob/main/images/Preview.png)
+![alt text](https://github.com/jimasr/Graph-Map-Analysis/blob/main/images/Preview.png)
 
 Disclaimer : The arrangement of nodes can sometime be quite confusing but we're definitely working on it :)
 
@@ -33,14 +33,14 @@ Graph Map is an ANT project developped in Apache Netbeans. The installation can 
 
 Git clone the project :  
 ```
-https://github.com/wockehs001/Graph-Map-Analysis.git
+https://github.com/jimasr/grama.git
 ````
 Open the project in your IDE and run Frame.java file to launch the GRAMA interface. There is a ready-made file "graph.csv" for test and usage 
 purpose.
 
 
 ## Authors
-[Hazim ASRI](https://github.com/wockehs001)    
+[Hazim ASRI](https://github.com/jimasr)    
 [Bastien PUSCEDDO](https://github.com/BastienPusceddo)
 
 ## Copyrights
